@@ -5,7 +5,7 @@ import { Homepage } from "./pages/homepage";
 import { addemployee } from "./pages/addemployee";
 import { getrandomemploueedetails } from "./testdata/randomdata";
 
-test.only("test add employee func", async ({ page,loginpage, homepage, addemppage }) => {
+test("test add employee func", async ({ page,loginpage, homepage, addemppage }) => {
 
     
     await loginpage.visit();
