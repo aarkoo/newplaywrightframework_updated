@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+playwright-report
+playwright/.cache
+test-results
+.git
+.gitignore

@@ -1,8 +1,6 @@
 import { expect } from "@playwright/test";
 import { test } from "./fixtures/customfixture";
-import { Loginpage } from "./pages/Loginpage";
 import { Homepage } from "./pages/homepage";
-import { addemployee } from "./pages/addemployee";
 import { getrandomemploueedetails } from "./testdata/randomdata";
 
 test("test add employee func", async ({ page,loginpage, homepage, addemppage }) => {
